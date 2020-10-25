@@ -2,11 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - EnemyMover
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -14,8 +18,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -48,7 +54,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -67,9 +85,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 14396}
+      Script: {instanceID: 14288}
     - Class: 114
-      Script: {instanceID: 15030}
+      Script: {instanceID: 14398}
+    - Class: 114
+      Script: {instanceID: 15032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -123,7 +143,7 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: f1129baa87315cea6dcc917d2cd50381
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -465,6 +485,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyMover
+  - hash:
+      serializedVersion: 2
       Hash: e4aac510b698bae77a5dbde189fe88e5
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -599,4 +625,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   playerPath: C:/Users/erico/Documents/University of Central Florida/2020 - Fall/DIG3480/Tutorial
-    2 - Platformer and Tilemapping/Build/DIG3480_Tutorial2.exe
+    2 - Platformer and Tilemapping/ChallengeBuild/DIG3480_Tutorial2.exe
